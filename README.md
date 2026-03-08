@@ -7,8 +7,6 @@ Esse processo pode ser dividido em duas grandes etapas:
 * **Análise:** O compilador lê o código fonte, gera dados e os armazena numa "Tabela de Símbolos", e verifica se foi escrito corretamente. A análise também é chamada de **front-end**.
 * **Síntese:** Usa os dados armazenados na Tabela de Símbolos para produzir um código equivalente na linguagem alvo (assembly, machine code, byte code). A síntese também é chamada de **back-end**.
 
----
-
 As etapas de compilação podem ser divididas em:
 
 ##### 1. Análise / Front-end
@@ -25,8 +23,6 @@ Gera o código alvo a partir da representação intermediária. O back-end é di
 2.  Gerador de Código
 3.  Otimizador de Código Dependente de Máquina
 
----
-
 #### Exemplos Clássicos
 
 **Linguagens Compiladas:**
@@ -35,7 +31,9 @@ Gera o código alvo a partir da representação intermediária. O back-end é di
 **Compiladores:**
 * GCC, Clang, Microsoft Visual C++, Turbo C
 
-### Interpretador
+---
+
+### Interpretadores
 
 Enquanto o compilador faz todo o trabalho de tradução antes do programa rodar, gerando um executável, o **interpretador** atua "ao vivo", analisando e executando o código passo a passo.
 
