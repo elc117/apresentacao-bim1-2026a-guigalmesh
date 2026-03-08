@@ -1,4 +1,5 @@
-# apresentacao-bim1-2026a-guigalmesh
+# Compiladores VS. Interpretadores
+### Compiladores
 
 Um **Compilador** é um software que lê um código escrito em uma linguagem, o código fonte, e o traduz para um código equivalente em uma outra linguagem alvo.
 
@@ -8,16 +9,16 @@ Esse processo pode ser dividido em duas grandes etapas:
 
 ---
 
-### As etapas de compilação podem ser divididas em:
+As etapas de compilação podem ser divididas em:
 
-#### 1. Análise / Front-end
+##### 1. Análise / Front-end
 Subdivide o programa em partes, analisa estas partes à procura de erros e gera uma representação intermediária. O front-end da compilação é dividido nas seguintes etapas:
 
 * **Análise Léxica e Sintática:** Essas duas verificam se as palavras e a gramática do código estão corretas.
 * **Análise Semântica:** Confere se o código faz sentido lógico (por exemplo, se você não está tentando somar um número com uma string).
 * **Gerador de Código Intermediário:** Esse gerador transforma o código em uma Representação Intermediária (IR).
 
-#### 2. Síntese / Back-end
+##### 2. Síntese / Back-end
 Gera o código alvo a partir da representação intermediária. O back-end é dividido em três etapas:
 
 1.  Otimizador de Código Independente de Máquina
@@ -26,7 +27,7 @@ Gera o código alvo a partir da representação intermediária. O back-end é di
 
 ---
 
-### Exemplos Clássicos
+#### Exemplos Clássicos
 
 **Linguagens Compiladas:**
 * C, C++, Rust, Go, Swift, Pascal, Delphi
@@ -48,6 +49,8 @@ As linguagens que adotam esse modelo híbrido precisam rodar em uma máquina vir
 * **Java:** roda na Java Virtual Machine (JVM);
 * **Python:** roda na Python Virtual Machine (PVM);
 * **Javascript:** roda em uma máquina virtual contida no navegador (V8 para navegadores baseados em Chromium, SpiderMonkey no Firefox e JavaScriptCore no Safari).
+
+### Compiladas VS. Intepretadas
 
 | Característica | Compiladas | Interpretadas |
 | :--- | :--- | :--- |
