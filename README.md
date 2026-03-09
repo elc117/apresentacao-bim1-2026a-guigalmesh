@@ -64,4 +64,4 @@ Uma das maiores vantagens das linguagens interpretadas é a possibilidade de int
 
 REPL significa Read-Evaluate-Print Loop, "Laço de Ler, Avaliar e Imprimir", ele recebe comandos do usuário, os executa e retorna os resultados. É muito útil para coisas como depuração ou testes enquanto o programa está rodando.
 Um exemplo de uso de REPL através do GHCi do Haskell, onde eu testo algumas operações, funções, e crio minha própria função, tudo através da CLI.
-![Demonstração GHCi do Haskell](2026-03-08 22-32-34.gif)
+![Demonstração GHCi do Haskell](haskellghci.gif)
