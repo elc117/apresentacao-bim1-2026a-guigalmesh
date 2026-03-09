@@ -58,3 +58,10 @@ As linguagens que adotam esse modelo híbrido precisam rodar em uma máquina vir
 | **Tempo de Tradução Prévia** | Lento (analisa todo o projeto antes) | Inexistente (ou muito rápido na geração do bytecode) |
 | **Ocultação do Código** | Alta (entrega apenas o binário executável) | Baixa (entrega o código-fonte ou bytecode) |
 | **Dependência para Rodar** | Nenhuma (o sistema operacional roda direto) | Exige o interpretador ou VM instalados na máquina |
+
+### REPL
+Uma das maiores vantagens das linguagens interpretadas é a possibilidade de interagir com o código em tempo real. Um *interpretador interativo* que opera na linha de comando, também conhecido como REPL, nos permite explorar isso.
+
+REPL significa Read-Evaluate-Print Loop, "Laço de Ler, Avaliar e Imprimir", ele recebe comandos do usuário, os executa e retorna os resultados. É muito útil para coisas como depuração ou testes enquanto o programa está rodando.
+Um exemplo de uso de REPL através do GHCi do Haskell, onde eu testo algumas operações, funções, e crio minha própria função, tudo através da CLI.
+![Demonstração GHCi do Haskell](2026-03-08 22-32-34.gif)
